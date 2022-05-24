@@ -1,0 +1,132 @@
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+
+     Program PW2WANNIER v.7.0 starts on 25May2022 at  2:15:15 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on       4 processor cores
+     Number of MPI processes:                 4
+     Threads/MPI process:                     1
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       4
+     79788 MiB available memory on the printing compute node when the environment starts
+ 
+ 
+  Reading nscf_save data
+
+     Reading xml data from directory:
+
+     temp/He.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min        1591    1591    431                95580    95580   13409
+     Max        1593    1593    432                95581    95581   13412
+     Sum        6369    6369   1725               382323   382323   53643
+ 
+     Using Slab Decomposition
+ 
+     Reading collected, re-writing distributed wavefunctions
+ 
+  Spin CASE ( default = unpolarized )
+ 
+  Wannier mode is: standalone     
+ 
+  -----------------
+  *** Reading nnkp 
+  -----------------
+ 
+  Checking info from wannier.nnkp file
+ 
+  - Real lattice is ok
+  - Reciprocal lattice is ok
+  - K-points are ok
+  - Number of wannier functions is ok (  1)
+  - All guiding functions are given 
+ 
+ Projections:
+    0.000000    0.000000    0.000000  0  1  1    1.000000
+ 
+  Reading data about k-point neighbours 
+ 
+  All neighbours are found 
+ 
+  Opening pp-files 
+ 
+ 
+  --------------------------
+  *** Compute  A projections
+  --------------------------
+ 
+  AMN: iknum =        8
+       1       2       3       4       5       6       7       8
+
+  AMN calculated
+ 
+  ---------------
+  *** Compute  M 
+  ---------------
+ 
+  MMN: iknum =        8
+       1       2       3       4       5       6       7       8
+
+  MMN calculated
+ 
+  -----------------------------------
+  *** Orbital terms are not computed 
+  -----------------------------------
+ 
+  -----------------------------------
+  *** SHC terms are not computed 
+  -----------------------------------
+ 
+  ----------------
+  *** Write bands 
+  ----------------
+ 
+ 
+  -----------------------------
+  *** Plot info is not printed 
+  -----------------------------
+ 
+  -----------------------------
+  *** Parity info is not printed 
+  -----------------------------
+ 
+  ------------
+  *** Stop pp 
+  ------------
+ 
+ 
+     init_pw2wan  :      0.32s CPU      0.38s WALL (       1 calls)
+     compute_amn  :      1.57s CPU      1.57s WALL (       1 calls)
+     compute_mmn  :      0.15s CPU      0.15s WALL (       1 calls)
+ 
+     PW2WANNIER   :      2.05s CPU      2.11s WALL
+
+ 
+   This run was terminated on:   2:15:17  25May2022            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
+ 

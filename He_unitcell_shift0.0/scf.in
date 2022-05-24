@@ -1,0 +1,31 @@
+ &control
+    calculation     = 'scf'
+    prefix          = 'He'
+    restart_mode    = 'from_scratch'
+    pseudo_dir      = '../pseudo/'
+    outdir          = './temp/'
+    tprnfor         = .true.
+    tstress         = .true.
+ /
+ &system
+    ibrav     = 0
+    nat       = 1
+    ntyp      = 1
+    ecutwfc   = 50.0
+ /
+ &electrons
+    diagonalization = 'david'
+    mixing_beta     = 0.7
+    conv_thr        = 1.0d-15
+ /
+ATOMIC_SPECIES
+ He  1.  He.dojo.sr.ONCVv0.4.pbe.standard.upf
+CELL_PARAMETERS bohr
+  20.0  0.0  0.0
+   0.0 20.0  0.0
+   0.0  0.0 20.0
+ATOMIC_POSITIONS crystal
+ He  0.0  0.0  0.0
+K_POINTS automatic
+ 1 1 1 0 0 0
+
