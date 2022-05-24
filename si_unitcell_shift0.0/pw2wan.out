@@ -3,7 +3,7 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
 MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
 MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
 
-     Program PW2WANNIER v.7.0 starts on 25May2022 at  4:24:19 
+     Program PW2WANNIER v.7.0 starts on 25May2022 at  4:34:28 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -20,7 +20,7 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
 
      MPI processes distributed on     1 nodes
      R & G space division:  proc/nbgrp/npool/nimage =       4
-     75968 MiB available memory on the printing compute node when the environment starts
+     75835 MiB available memory on the printing compute node when the environment starts
  
  
   Reading nscf_save data
@@ -39,9 +39,9 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
      Parallelization info
      --------------------
      sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
-     Min         256     256     77                 5385     5385     881
-     Max         257     257     79                 5388     5388     882
-     Sum        1027    1027    313                21547    21547    3527
+     Min         256     256     78                 5385     5385     923
+     Max         257     257     79                 5388     5388     925
+     Sum        1027    1027    313                21547    21547    3695
  
      Using Slab Decomposition
  
@@ -84,10 +84,14 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
   *** Compute  A projections
   --------------------------
  
-  AMN: iknum =       27
+  AMN: iknum =       64
        1       2       3       4       5       6       7       8       9      10
       11      12      13      14      15      16      17      18      19      20
-      21      22      23      24      25      26      27
+      21      22      23      24      25      26      27      28      29      30
+      31      32      33      34      35      36      37      38      39      40
+      41      42      43      44      45      46      47      48      49      50
+      51      52      53      54      55      56      57      58      59      60
+      61      62      63      64
 
   AMN calculated
  
@@ -95,10 +99,14 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
   *** Compute  M 
   ---------------
  
-  MMN: iknum =       27
+  MMN: iknum =       64
        1       2       3       4       5       6       7       8       9      10
       11      12      13      14      15      16      17      18      19      20
-      21      22      23      24      25      26      27
+      21      22      23      24      25      26      27      28      29      30
+      31      32      33      34      35      36      37      38      39      40
+      41      42      43      44      45      46      47      48      49      50
+      51      52      53      54      55      56      57      58      59      60
+      61      62      63      64
 
   MMN calculated
  
@@ -128,14 +136,14 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
   ------------
  
  
-     init_pw2wan  :      0.19s CPU      0.20s WALL (       1 calls)
-     compute_amn  :      2.42s CPU      2.42s WALL (       1 calls)
-     compute_mmn  :      0.60s CPU      0.62s WALL (       1 calls)
+     init_pw2wan  :      0.25s CPU      0.30s WALL (       1 calls)
+     compute_amn  :      5.43s CPU      5.44s WALL (       1 calls)
+     compute_mmn  :      1.20s CPU      1.24s WALL (       1 calls)
  
-     PW2WANNIER   :      3.21s CPU      3.25s WALL
+     PW2WANNIER   :      6.88s CPU      6.98s WALL
 
  
-   This run was terminated on:   4:24:22  25May2022            
+   This run was terminated on:   4:34:35  25May2022            
 
 =------------------------------------------------------------------------------=
    JOB DONE.
