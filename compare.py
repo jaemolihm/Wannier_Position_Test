@@ -25,7 +25,12 @@ def load_system(seedname, mode):
 system_dict = {}
 for shift in ["0.0", "0.5"]:
     for mode in ["naive", "MV", "full-TI"]:
-        system_dict[(shift, mode)] = load_system(f"He_unitcell_shift{shift}/He", mode)
+        # system_dict[(shift, mode)] = load_system(f"He_unitcell_shift{shift}/He", mode)
+        system_dict[(shift, mode)] = load_system(f"si_unitcell_shift{shift}/si", mode)
+
+# system_super_dict = {}
+# for mode in ["naive", "MV", "full-TI"]:
+#     system_super_dict[mode] = load_system(f"He_supercell/He", mode)
 
 np.set_printoptions(precision=8)
 
@@ -33,3 +38,7 @@ print("Wannier centers")
 for key in system_dict.keys():
     system = system_dict[key]
     print(key, system.AA_R[0, 0, system.iR0, :])
+
+# for key in system_super_dict.keys():
+#     system = system_super_dict[key]
+#     print(key, system.AA_R[1, 1, system.iR0, :])
