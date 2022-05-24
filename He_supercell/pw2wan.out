@@ -3,7 +3,7 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
 MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
 MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
 
-     Program PW2WANNIER v.7.0 starts on 25May2022 at  2:28:30 
+     Program PW2WANNIER v.7.0 starts on 25May2022 at  2:28: 9 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -20,7 +20,7 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
 
      MPI processes distributed on     1 nodes
      R & G space division:  proc/nbgrp/npool/nimage =       4
-     77879 MiB available memory on the printing compute node when the environment starts
+     77840 MiB available memory on the printing compute node when the environment starts
  
  
   Reading nscf_save data
@@ -39,9 +39,9 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
      Parallelization info
      --------------------
      sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
-     Min        1591    1591    431                95580    95580   13409
-     Max        1593    1593    432                95581    95581   13412
-     Sum        6369    6369   1725               382323   382323   53643
+     Min        6368    6368   1591               764130   764130   95580
+     Max        6370    6370   1593               764131   764131   95581
+     Sum       25477   25477   6369              3056521  3056521  382323
  
      Using Slab Decomposition
  
@@ -60,11 +60,18 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
   - Real lattice is ok
   - Reciprocal lattice is ok
   - K-points are ok
-  - Number of wannier functions is ok (  1)
+  - Number of wannier functions is ok (  8)
   - All guiding functions are given 
  
  Projections:
+    0.000000    0.000000    0.000000  0  1  1    1.000000
+    0.500000    0.000000    0.000000  0  1  1    1.000000
+    0.000000    0.500000    0.000000  0  1  1    1.000000
+    0.500000    0.500000    0.000000  0  1  1    1.000000
     0.000000    0.000000    0.500000  0  1  1    1.000000
+    0.500000    0.000000    0.500000  0  1  1    1.000000
+    0.000000    0.500000    0.500000  0  1  1    1.000000
+    0.500000    0.500000    0.500000  0  1  1    1.000000
  
   Reading data about k-point neighbours 
  
@@ -77,8 +84,8 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
   *** Compute  A projections
   --------------------------
  
-  AMN: iknum =        8
-       1       2       3       4       5       6       7       8
+  AMN: iknum =        1
+       1
 
   AMN calculated
  
@@ -86,8 +93,8 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
   *** Compute  M 
   ---------------
  
-  MMN: iknum =        8
-       1       2       3       4       5       6       7       8
+  MMN: iknum =        1
+       1
 
   MMN calculated
  
@@ -117,14 +124,14 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
   ------------
  
  
-     init_pw2wan  :      0.32s CPU      0.38s WALL (       1 calls)
-     compute_amn  :      1.58s CPU      1.58s WALL (       1 calls)
-     compute_mmn  :      0.15s CPU      0.15s WALL (       1 calls)
+     init_pw2wan  :      2.20s CPU      2.45s WALL (       1 calls)
+     compute_amn  :     11.87s CPU     11.89s WALL (       1 calls)
+     compute_mmn  :      3.41s CPU      3.42s WALL (       1 calls)
  
-     PW2WANNIER   :      2.05s CPU      2.13s WALL
+     PW2WANNIER   :     17.48s CPU     17.77s WALL
 
  
-   This run was terminated on:   2:28:32  25May2022            
+   This run was terminated on:   2:28:27  25May2022            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

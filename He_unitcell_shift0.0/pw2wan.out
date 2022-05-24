@@ -3,7 +3,7 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
 MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
 MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
 
-     Program PW2WANNIER v.7.0 starts on 25May2022 at  2:15:15 
+     Program PW2WANNIER v.7.0 starts on 25May2022 at  2:28: 7 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -20,7 +20,7 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
 
      MPI processes distributed on     1 nodes
      R & G space division:  proc/nbgrp/npool/nimage =       4
-     79788 MiB available memory on the printing compute node when the environment starts
+     75917 MiB available memory on the printing compute node when the environment starts
  
  
   Reading nscf_save data
@@ -117,14 +117,14 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
   ------------
  
  
-     init_pw2wan  :      0.32s CPU      0.38s WALL (       1 calls)
-     compute_amn  :      1.57s CPU      1.57s WALL (       1 calls)
-     compute_mmn  :      0.15s CPU      0.15s WALL (       1 calls)
+     init_pw2wan  :      0.38s CPU      0.44s WALL (       1 calls)
+     compute_amn  :      1.65s CPU      1.65s WALL (       1 calls)
+     compute_mmn  :      0.16s CPU      0.16s WALL (       1 calls)
  
-     PW2WANNIER   :      2.05s CPU      2.11s WALL
+     PW2WANNIER   :      2.19s CPU      2.26s WALL
 
  
-   This run was terminated on:   2:15:17  25May2022            
+   This run was terminated on:   2:28: 9  25May2022            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

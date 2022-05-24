@@ -3,7 +3,7 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
 MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
 MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
 
-     Program PWSCF v.7.0 starts on 25May2022 at  2:16:17 
+     Program PWSCF v.7.0 starts on 25May2022 at  2:28:28 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -19,7 +19,7 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
      Threads/MPI process:                     1
 
      MPI processes distributed on     1 nodes
-     79786 MiB available memory on the printing compute node when the environment starts
+     77906 MiB available memory on the printing compute node when the environment starts
  
      Reading input from nscf.in
 
@@ -131,77 +131,77 @@ MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra proces
 
           k = 0.0000 0.0000 0.0000 ( 47833 PWs)   bands (ev):
 
-   -15.7454
+   -15.7457
 
           k = 0.0000 0.0000 0.5000 ( 47870 PWs)   bands (ev):
 
-   -15.7456
+   -15.7458
 
           k = 0.0000 0.5000 0.0000 ( 47870 PWs)   bands (ev):
 
-   -15.7456
+   -15.7458
 
           k = 0.0000 0.5000 0.5000 ( 47760 PWs)   bands (ev):
 
-   -15.7451
+   -15.7453
 
           k = 0.5000 0.0000 0.0000 ( 47870 PWs)   bands (ev):
 
-   -15.7456
+   -15.7458
 
           k = 0.5000 0.0000 0.5000 ( 47760 PWs)   bands (ev):
 
-   -15.7451
+   -15.7453
 
           k = 0.5000 0.5000 0.0000 ( 47760 PWs)   bands (ev):
 
-   -15.7451
+   -15.7453
 
           k = 0.5000 0.5000 0.5000 ( 47600 PWs)   bands (ev):
 
-   -15.7442
+   -15.7444
 
      Writing all to output data dir ./temp/He.save/
  
-     init_run     :      0.32s CPU      0.36s WALL (       1 calls)
-     electrons    :      0.43s CPU      0.45s WALL (       1 calls)
+     init_run     :      0.33s CPU      0.37s WALL (       1 calls)
+     electrons    :      0.42s CPU      0.42s WALL (       1 calls)
 
      Called by init_run:
      wfcinit      :      0.00s CPU      0.00s WALL (       1 calls)
-     potinit      :      0.11s CPU      0.13s WALL (       1 calls)
-     hinit0       :      0.05s CPU      0.06s WALL (       1 calls)
+     potinit      :      0.08s CPU      0.11s WALL (       1 calls)
+     hinit0       :      0.08s CPU      0.09s WALL (       1 calls)
 
      Called by electrons:
-     c_bands      :      0.43s CPU      0.45s WALL (       1 calls)
-     v_of_rho     :      0.10s CPU      0.11s WALL (       1 calls)
+     c_bands      :      0.42s CPU      0.42s WALL (       1 calls)
+     v_of_rho     :      0.07s CPU      0.09s WALL (       1 calls)
 
      Called by c_bands:
      init_us_2    :      0.01s CPU      0.01s WALL (       8 calls)
      init_us_2:cp :      0.01s CPU      0.01s WALL (       8 calls)
-     cegterg      :      0.36s CPU      0.37s WALL (       8 calls)
+     cegterg      :      0.35s CPU      0.35s WALL (       8 calls)
 
      Called by *egterg:
      cdiaghg      :      0.00s CPU      0.00s WALL (      72 calls)
-     h_psi        :      0.37s CPU      0.38s WALL (      80 calls)
+     h_psi        :      0.36s CPU      0.36s WALL (      80 calls)
      g_psi        :      0.01s CPU      0.01s WALL (      64 calls)
 
      Called by h_psi:
-     h_psi:calbec :      0.01s CPU      0.01s WALL (      80 calls)
-     vloc_psi     :      0.35s CPU      0.36s WALL (      80 calls)
+     h_psi:calbec :      0.02s CPU      0.02s WALL (      80 calls)
+     vloc_psi     :      0.34s CPU      0.34s WALL (      80 calls)
      add_vuspsi   :      0.00s CPU      0.00s WALL (      80 calls)
 
      General routines
-     calbec       :      0.01s CPU      0.01s WALL (      80 calls)
-     fft          :      0.05s CPU      0.06s WALL (      10 calls)
-     fftw         :      0.31s CPU      0.31s WALL (     160 calls)
+     calbec       :      0.02s CPU      0.02s WALL (      80 calls)
+     fft          :      0.04s CPU      0.05s WALL (      10 calls)
+     fftw         :      0.29s CPU      0.29s WALL (     160 calls)
      davcio       :      0.00s CPU      0.00s WALL (      16 calls)
  
      Parallel routines
  
-     PWSCF        :      0.90s CPU      0.99s WALL
+     PWSCF        :      0.90s CPU      0.98s WALL
 
  
-   This run was terminated on:   2:16:18  25May2022            
+   This run was terminated on:   2:28:29  25May2022            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

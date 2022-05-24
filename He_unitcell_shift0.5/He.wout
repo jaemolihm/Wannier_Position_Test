@@ -70,7 +70,7 @@
              | 675 Mass Ave, Cambridge, MA 02139, USA.           |
              |                                                   |
              +---------------------------------------------------+
-             |    Execution started on 25May2022 at 02:16:21     |
+             |    Execution started on 25May2022 at 02:28:32     |
              +---------------------------------------------------+
  
  ******************************************************************************
@@ -223,9 +223,9 @@
  Starting a new Wannier90 calculation ...
 
 
- Reading overlaps from He.mmn    :  Created on 25May2022 at  2:16:21
+ Reading overlaps from He.mmn    :  Created on 25May2022 at  2:28:32
 
- Reading projections from He.amn :  Created on 25May2022 at  2:16:19
+ Reading projections from He.amn :  Created on 25May2022 at  2:28:30
 
  Time to read overlaps          0.001 (sec)
 
@@ -239,27 +239,27 @@
  
  ------------------------------------------------------------------------------
  Initial State
-  WF centre and spread    1  ( -0.000000, -0.000000,  5.291772 )     0.35281828
-  Sum of centres and spreads ( -0.000000, -0.000000,  5.291772 )     0.35281828
+  WF centre and spread    1  ( -0.000000, -0.000000,  5.291772 )     0.35281461
+  Sum of centres and spreads ( -0.000000, -0.000000,  5.291772 )     0.35281461
  
-      0     0.353E+00     0.0000000000        0.3528182848       0.00  <-- CONV
-        O_D=      0.0000000 O_OD=      0.0000000 O_TOT=      0.3528183 <-- SPRD
+      0     0.353E+00     0.0000000000        0.3528146136       0.00  <-- CONV
+        O_D=      0.0000000 O_OD=      0.0000000 O_TOT=      0.3528146 <-- SPRD
  ------------------------------------------------------------------------------
  Final State
-  WF centre and spread    1  ( -0.000000, -0.000000,  5.291772 )     0.35281828
-  Sum of centres and spreads ( -0.000000, -0.000000,  5.291772 )     0.35281828
+  WF centre and spread    1  ( -0.000000, -0.000000,  5.291772 )     0.35281461
+  Sum of centres and spreads ( -0.000000, -0.000000,  5.291772 )     0.35281461
  
-         Spreads (Ang^2)       Omega I      =     0.352818285
+         Spreads (Ang^2)       Omega I      =     0.352814614
         ================       Omega D      =     0.000000000
                                Omega OD     =     0.000000000
-    Final Spread (Ang^2)       Omega Total  =     0.352818285
+    Final Spread (Ang^2)       Omega Total  =     0.352814614
  ------------------------------------------------------------------------------
  Time for wannierise            0.000 (sec)
 
  Writing checkpoint file He.chk... done
 
  Time for plotting              0.000 (sec)
- Total Execution Time           0.028 (sec)
+ Total Execution Time           0.029 (sec)
 
  *===========================================================================*
  |                             TIMING INFORMATION                            |

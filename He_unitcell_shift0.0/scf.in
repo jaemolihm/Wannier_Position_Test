@@ -27,5 +27,5 @@ CELL_PARAMETERS bohr
 ATOMIC_POSITIONS crystal
  He  0.0  0.0  0.0
 K_POINTS automatic
- 1 1 1 0 0 0
+ 2 2 2 0 0 0
 
